@@ -1,11 +1,14 @@
 // ==UserScript==
-// @name        GitHub File Icon
-// @namespace   githubfileicon
+// @id		githubfileicon@dragonet1943@gmail.com
+// @name        GitHub File Text Icon
+// @namespace   https://github.com/DT27/Github-File-Text-Icon
+// @description	在GitHub项目文件列表中使用彩色文件类型文字作为图标
 // @include     https://github.com/*
-// @version     1
+// @autho	DT27
+// @version     0.1
+// @license     GPL version 3
 // @grant       none
 // ==/UserScript===
-//https://raw.githubusercontent.com/DT27/File-Format-Icon/master/png/JS.png
 function hasClass(elem, cls){
     cls = cls || '';
     if(cls.replace(/\s/g, '').length == 0) return false;
